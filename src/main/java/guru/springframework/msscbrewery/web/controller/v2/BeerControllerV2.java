@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 
-@RequestMapping("/api/v1/beers")
+@RequestMapping("/api/v2/beers")
 @RestController
 @RequiredArgsConstructor
 public class BeerControllerV2 {
