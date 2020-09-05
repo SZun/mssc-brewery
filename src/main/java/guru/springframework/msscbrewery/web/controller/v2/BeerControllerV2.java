@@ -3,6 +3,8 @@ package guru.springframework.msscbrewery.web.controller.v2;
 import guru.springframework.msscbrewery.services.v2.BeerServiceV2;
 import guru.springframework.msscbrewery.web.model.v2.BeerDTOV2;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import lombok.val;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,6 +14,7 @@ import javax.validation.Valid;
 import java.util.UUID;
 
 //@Validated
+@Slf4j
 @RequestMapping("/api/v2/beers")
 @RestController
 @RequiredArgsConstructor
@@ -25,9 +28,10 @@ public class BeerControllerV2 {
     }
 
     @PostMapping
-    public ResponseEntity createBear(@Valid /*@NotNull */ @RequestBody BeerDTOV2 beerDTO){
-        BeerDTOV2 beer = beerServiceV2.createBeer(beerDTO);
-        HttpHeaders headers = new HttpHeaders();
+    public ResponseEntity handlePost(@Valid /*@NotNull */ @RequestBody BeerDTOV2 beerDTO){
+        log.debug("in handle post...");
+        val beer = beerServiceV2.createBeer(beerDTO);
+        var headers = new HttpHeaders();
         headers.add("Location", "/api/v1/beers/" + beer.getId().toString());
         return new ResponseEntity<>(headers, HttpStatus.CREATED);
     }

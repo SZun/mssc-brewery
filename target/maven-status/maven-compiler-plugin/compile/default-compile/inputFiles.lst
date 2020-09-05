@@ -1,0 +1,17 @@
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery/src/main/java/guru/springframework/msscbrewery/web/model/CustomerDTO.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery/src/main/java/guru/springframework/msscbrewery/services/CustomerServiceImpl.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery/src/main/java/guru/springframework/msscbrewery/services/v2/BeerServiceV2.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery/src/main/java/guru/springframework/msscbrewery/services/BeerService.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery/src/main/java/guru/springframework/msscbrewery/web/controller/MvcExceptionHandler.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery/src/main/java/guru/springframework/msscbrewery/MsscBreweryApplication.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery/src/main/java/guru/springframework/msscbrewery/mappers/BeerMapper.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery/src/main/java/guru/springframework/msscbrewery/services/BeerServiceImpl.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery/src/main/java/guru/springframework/msscbrewery/web/controller/CustomerController.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery/src/main/java/guru/springframework/msscbrewery/web/model/v2/BeerStyleEnum.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery/src/main/java/guru/springframework/msscbrewery/domain/Beer.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery/src/main/java/guru/springframework/msscbrewery/services/v2/BeerServiceV2Impl.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery/src/main/java/guru/springframework/msscbrewery/services/CustomerService.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery/src/main/java/guru/springframework/msscbrewery/web/model/BeerDTO.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery/src/main/java/guru/springframework/msscbrewery/web/model/v2/BeerDTOV2.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery/src/main/java/guru/springframework/msscbrewery/web/controller/v2/BeerControllerV2.java
+/Users/samg.zun/Documents/References/Udemy/mssc-brewery/src/main/java/guru/springframework/msscbrewery/web/controller/BeerController.java
